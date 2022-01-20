@@ -8,7 +8,7 @@ int fact(int n){
         return n*fact(n-1);
 }
 
-int main()
-{
+int main(){
     std::cout << fact(5) << std::endl;
+    printf("*");
 }
